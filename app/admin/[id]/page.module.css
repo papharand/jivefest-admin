@@ -1,0 +1,184 @@
+.container {
+  min-height: 100vh;
+  background-color: rgb(0 0 0);
+  font-family: sans-serif;
+}
+
+.closeButton {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  color: rgb(255 255 255);
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.closeButton:hover {
+  color: rgb(209 213 219);
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.card {
+  width: 100%;
+  max-width: 28rem;
+  background-color: rgb(24 24 27);
+  border: 2px solid rgb(153 27 27);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .card {
+    padding: 2rem;
+  }
+}
+
+.headerLogo {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.logoTop {
+  font-size: 0.875rem;
+  color: rgb(234 179 8);
+  margin-bottom: 0.5rem;
+}
+
+.logoMain {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: rgb(234 179 8);
+  letter-spacing: 0.05em;
+  font-family: serif;
+}
+
+@media (min-width: 768px) {
+  .logoMain {
+    font-size: 3rem;
+  }
+}
+
+.logoBottom {
+  font-size: 0.75rem;
+  color: rgb(234 179 8);
+  font-style: italic;
+}
+
+.section {
+  margin-bottom: 1.5rem;
+}
+
+.sectionLarge {
+  margin-bottom: 2rem;
+}
+
+.sectionTitle {
+  color: rgb(234 179 8);
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.fieldGroup {
+  margin-bottom: 0.75rem;
+}
+
+.label {
+  color: rgb(255 255 255);
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.field {
+  background-color: rgb(39 39 42);
+  padding: 0.75rem 1rem;
+  border-radius: 0.25rem;
+}
+
+.fieldValue {
+  color: rgb(255 255 255);
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.iconContainerFlex {
+  flex: 1;
+}
+
+.iconField {
+  background-color: rgb(39 39 42);
+  padding: 0.75rem 1rem;
+  border-radius: 0.25rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconFieldLarge {
+  height: 6rem;
+}
+
+.iconBox {
+  width: 4rem;
+  height: 4rem;
+  background-color: rgb(255 255 255);
+  border-radius: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconBoxLarge {
+  width: 5rem;
+  height: 5rem;
+}
+
+.iconBoxColumn {
+  flex-direction: column;
+}
+
+.iconText {
+  color: rgb(0 0 0);
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.iconTextSmall {
+  font-size: 0.75rem;
+}
+
+.iconTextLarge {
+  font-size: 1.5rem;
+}
+
+.checkInButton {
+  width: 100%;
+  background-color: rgb(234 179 8);
+  color: rgb(0 0 0);
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 150ms;
+}
+
+.checkInButton:hover {
+  background-color: rgb(202 138 4);
+}

@@ -1,0 +1,33 @@
+.tableWrapper {
+  background-color: rgb(39 39 42);
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  margin-inline: 10em;
+
+}
+
+.table {
+  width: 100%;
+}
+
+.tableHeader {
+  background-color: rgb(127 29 29);
+}
+
+.tableHeaderCell {
+  padding: 1rem 1.5rem;
+  text-align: left;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: rgb(255 255 255);
+}
+
+.tableRow {
+  border-bottom: 1px solid rgb(63 63 70);
+}
+
+.tableCell {
+  padding: 1rem 1.5rem;
+  font-size: 0.875rem;
+  color: rgb(212 212 216);
+}
